@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load model
-with open('/house_price_model.pkl', 'rb') as f:
+with open('house_price_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 st.set_page_config(page_title="House Price Prediction", page_icon="🏠")
